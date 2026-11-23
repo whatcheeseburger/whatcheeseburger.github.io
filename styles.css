@@ -26,12 +26,14 @@ html, body {
     border-top-color: #555555;
     border-top-style: solid;
     border-top-width: 2px;
+    box-shadow: 0 -50px 50px rgba(0, 0, 0, 0.3);
 }
 .x-page-header {
     top:0;
     border-bottom-color: #555555;
     border-bottom-style: solid;
     border-bottom-width: 2px;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.3);
 }
 .x-page-info {
     display: flex;
@@ -44,9 +46,11 @@ html, body {
 .x-icon-warning {
     font-size: 15em;
     color: #ff2063;
-    filter: drop-shadow(12px 8px 8px rgba(0,0,0,0.8));
+    filter: drop-shadow(30px 20px 25px rgba(0,0,0,0.6));
 }
-
+span.pink {
+    color: #ff2063;
+}
 p, h1 {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
